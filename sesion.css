@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sesion{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%,-50%);
+    width: 400px;
+    background: #24303c;
+    border-radius: 10px;
+}
+.sesion h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+.sesion form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .nombre {
+    position: absolute;
+    border-bottom: 2px solid #1f53c5;
+    margin: 30px 0;
+}
+
+.nombre{
+    width: 100%;
+    padding:0spx;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none ;
+    outline: none;
+}
+
+.nombre label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: white;
+    
+}
+
+
+
+
+.reserva{
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    display: flexbox;
+    background: #AB2A3E ;
+    width: 200px;
+    border: 10px;
+    padding: 15px 50px;
+    border-radius: 35px;
+    color: white;
+    margin: 100px 4px;
+ 
+}
+.reserva:hover{
+    background: #ab2a3de7;
+   
+}
+
+
+
